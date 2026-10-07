@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | TechStore</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+  <a class="logo" href="index.html">Tech<span>Store</span></a>
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <nav class="nav-links"><a href="index.html">Home</a><a class="active" href="products.html">Products</a><a href="cart.html">Cart <span class="cart-count">0</span></a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+</div></header>
+
+<main class="section">
+  <div class="container">
+    <div class="page-heading"><p class="eyebrow">CATALOG</p><h1>Computer products</h1><p>Find the right components for your setup.</p></div>
+    <div class="toolbar">
+      <input id="search-input" class="input" type="search" placeholder="Search products...">
+      <select id="category-filter" class="input"><option value="All">All categories</option><option>CPU</option><option>GPU</option><option>RAM</option><option>Monitor</option><option>Laptop</option></select>
+      <select id="sort-select" class="input"><option value="default">Sort by</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select>
+    </div>
+    <div id="products-grid" class="product-grid"></div>
+  </div>
+</main>
+<footer class="footer"><div class="container footer-inner"><p>© 2026 TechStore</p><p>Computer Shop University Project</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>

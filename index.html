@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechStore | Computer Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html">Tech<span>Store</span></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a class="active" href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart <span class="cart-count">0</span></a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-content">
+      <div>
+        <p class="eyebrow">YOUR NEXT LEVEL PC STARTS HERE</p>
+        <h1>Build your perfect <span>setup.</span></h1>
+        <p class="hero-text">Quality computer components, laptops and gaming accessories in one place.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="products.html">Shop products</a>
+          <a class="btn btn-outline" href="about.html">Learn more</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-icon">🖥️</div>
+        <h3>Performance without compromise</h3>
+        <p>CPUs, GPUs, RAM, monitors and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="eyebrow">EXPLORE</p><h2>Shop by category</h2></div>
+        <a href="products.html">View all →</a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="products.html?category=CPU"><div>⚙️</div><h3>Processors</h3><p>Fast CPUs for every build.</p></a>
+        <a class="category-card" href="products.html?category=GPU"><div>🎮</div><h3>Graphics Cards</h3><p>Powerful gaming performance.</p></a>
+        <a class="category-card" href="products.html?category=RAM"><div>💾</div><h3>Memory</h3><p>Speed up your multitasking.</p></a>
+        <a class="category-card" href="products.html?category=Monitor"><div>🖥️</div><h3>Monitors</h3><p>Sharper and smoother visuals.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-heading"><div><p class="eyebrow">TOP PICKS</p><h2>Popular products</h2></div></div>
+      <div id="featured-products" class="product-grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container footer-inner"><p>© 2026 TechStore</p><p>Computer Shop University Project</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
